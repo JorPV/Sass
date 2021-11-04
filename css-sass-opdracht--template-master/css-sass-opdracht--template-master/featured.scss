@@ -1,0 +1,21 @@
+.featured {
+    padding: $stdpadding;
+  
+    .featured .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    #featured .image img {
+      width: 300px;
+    }
+  
+    .text-featured {
+      @include text (); 
+    }
+    .text-featured p {
+      text-align: justify;
+      padding: $stdpadding;
+      line-height: 1.4em;
+    }
+  }

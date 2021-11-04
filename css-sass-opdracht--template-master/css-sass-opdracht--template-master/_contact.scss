@@ -1,0 +1,16 @@
+.contact {
+    padding: $stdpadding;
+  
+    .wrapper .contact {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .form-wrapper,
+    .contact-wrapper {
+      padding: $stdpadding;
+    }
+  
+    .copy-wrapper {
+      padding-left: $stdpadding;
+    }
+  }
